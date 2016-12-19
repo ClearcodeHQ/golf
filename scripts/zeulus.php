@@ -1,0 +1,1 @@
+<?php list(,$h,$c,$b)=$argv;$e="\033[";$n="\n";$w=$h*2;$f=str_repeat;$x=str_pad;$q=$f(uppp,$w^5);for($i=0;$i<$h;$i++){$o.=$f($x(a.($i?substr($q,-1*($i+1)*2+2,-1).a:''),$w," ",2),$c).$n;}for($i=0;$i<$b;$i++)$o.=$f($x(H,$w," ",2),$c).$n;echo strtr($o.$f(d,$w*$c-1),[H=>$e.'91mH',d=>$e.'97m^',u=>$e.'97m$',p=>$e.'32m#',a=>$e.'93m*']).$n;

@@ -1,0 +1,1 @@
+a=process;b=a.argv;c=(c)=>a.stdout.write(c);d=parseInt;e='\033[';f=d(b[2]);g=b[3];h=f+d(b[4]);i=f*2-1;j=Math.ceil(i/2);k=-1;while(k++<=h-1){l=0;while(l++<g){m=0;while(m++<=i)m>=j-k&&m<=j+k&&k<f?m==j-k||m==j+k?c(e+'93m*'):(m-f-k+3)%4==0?c(e+'97m$'):c(e+'32m#'):k>=f&&k<h?c(m==j?e+'91mH':' '):k==h?c(l==g&&m==i?'':e+'97m^'):c(' ')}c('\n')}

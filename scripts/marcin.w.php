@@ -1,0 +1,1 @@
+<?php eval(preg_replace('/([A-GI-Z])/', '$${1}','list(,X,Y,Z)=$argv;M=X*2;A="\033[";for(Q=0;Q<X;Q++){for(I=0;I<Y;I++)for(K=1;K<M+1;K++)@O.=(Q+K<X||K-Q>X)?" ":((Q+K==X||K-Q==X)?A."93m*":((Q-K+X+1&3)?A."32m#":A."97m$"));O.="\n";}for(Q=0;Q<Z;Q++){for(I=0;I<Y*M;I++)O.=(I%(M)==X-1)?A."91mH":" ";O.="\n";}O.=str_repeat(A."97m^",Y*M-1)."\n";echoO;'));

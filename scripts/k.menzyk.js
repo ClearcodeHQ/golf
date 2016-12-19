@@ -1,0 +1,1 @@
+p=process.argv,o=+p[2],w=o*2,e=a=>process.stdout.write(a);for(r=0;r<o+ +p[4];r++){for(c=0;c<w*+p[3];c++){x=r*2;y=c%w-(w-x)/2;e(r<o?y<-1||y>=x?' ':y<0||y+1==x?'\033[93m*':(y+2*(r%2))%4<1?'\033[97m$':'\033[32m#':y==x/2-1?'\033[91mH':' ');}e("\n");}e('\033[97m^'.repeat(w*+p[3]-1)+"\n");
