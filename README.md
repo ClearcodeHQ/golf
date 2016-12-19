@@ -10,7 +10,7 @@ cd check/
 ### Example
 
 ```
-/check.sh python ~/tree/xxx_tree.py
+./check.sh python ~/tree/xxx_tree.py
 MERRY CHRISTMAS size: 233 /home/xxx/tree/xxx_tree.py \r count: 0
 ```
 
