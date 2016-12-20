@@ -1,5 +1,31 @@
 # Clearcode Golf
 
+![tree](/tree.png)
+
+## Description
+
+The problem of this challenge is a write shortest code to render ASCII christmas trees (forest?)
+Example are in tree.png and in `check` directory
+
+### Technicals
+
+Chars: `*$H^` and space
+Colors: (http://misc.flogisoft.com/bash/tip_colors_and_formatting)
+
+```
+GREEN = '\033[32m'
+RED = '\033[91m'
+WHITE = '\033[97m'
+YELLOW = '\033[93m'
+```
+
+### Rules
+
+1. Every line has ended with `\n`
+2. Only 1 file
+3. Without another scripts (online/from disk) and libs (stdlib allowed)
+4. Arguments are always positive integers
+
 ## Test
 
 ```
