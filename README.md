@@ -10,6 +10,7 @@ Example are in tree.png and in `check` directory
 ### Technicals
 
 Chars: `*$H^` and space
+
 Colors: (http://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
 ```
