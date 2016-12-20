@@ -9,7 +9,7 @@ Example are in tree.png and in `check` directory
 
 ### Technicals
 
-Chars: `*$H^` and space
+Chars: `*#$H^` and space
 
 Colors: (http://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
@@ -25,7 +25,8 @@ YELLOW = '\033[93m'
 1. Every line has ended with `\n`
 2. Only 1 file
 3. Without another scripts (online/from disk) and libs (stdlib allowed)
-4. Arguments are always positive integers
+4. Every char(expect space) start with code of color
+5. Arguments are always positive integers
 
 ## Test
 
