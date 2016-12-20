@@ -24,7 +24,7 @@ YELLOW = '\033[93m'
 1. Every line ends with `\n`
 2. The solution should consist of only 1 file 
 3. Other scripts (online/from disk) and libs are not allowed (except stdlib)
-4. Every char (expect space) starts with the color code (see technicals above)
+4. Every char (except space) starts with the color code (see technicals above)
 5. Arguments are always positive integers
 
 ## Test
