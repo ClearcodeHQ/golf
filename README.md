@@ -4,8 +4,7 @@
 
 ## Description
 
-The problem of this challenge is a write shortest code to render ASCII christmas trees (forest?)
-Example are in tree.png and in `check` directory
+The purpose of this challenge is to write a shortest code to render ASCII christmas trees (forest?). You may find examples in the `tree.png` and in `check` directory 
 
 ### Technicals
 
@@ -22,10 +21,10 @@ YELLOW = '\033[93m'
 
 ### Rules
 
-1. Every line has ended with `\n`
-2. Only 1 file
-3. Without another scripts (online/from disk) and libs (stdlib allowed)
-4. Every char(expect space) start with code of color
+1. Every line ends with `\n`
+2. The solution should consist of only 1 file 
+3. Other scripts (online/from disk) and libs are not allowed (except stdlib)
+4. Every char (expect space) starts with code of color (see technicals above)
 5. Arguments are always positive integers
 
 ## Test
